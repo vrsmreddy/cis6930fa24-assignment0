@@ -31,7 +31,7 @@ def test_load_data_from_file():
     api = main.FBIApiHandler()
     
     # Load data from the JSON file located at 'tests/fbi_page_3.json'
-    data = api.load_data_from_file('tests/fbi_page_3.json')
+    data = api.load_data_from_file('fbi_page_3.json')
     
     # Check that the data was loaded successfully
     assert data is not None, "Failed to load data from the file"
@@ -63,4 +63,5 @@ def test_load_data_from_corrupted_file():
     
     # Check that loading a corrupted file returns None
     assert data is None, "Corrupted file should return None"
+
 

@@ -60,3 +60,4 @@ def test_specific_field_presence():
         assert 'subjects' in record, "Record missing 'subjects' field"
         assert 'field_offices' in record, "Record missing 'field_offices' field"
 
+
