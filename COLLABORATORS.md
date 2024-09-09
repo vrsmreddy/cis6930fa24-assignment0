@@ -1,0 +1,6 @@
+ COLLABORATORS
+
+
+GitHub Copilot | Assisted with the code suggestions during development.
+
+Stack Overflow | https://stackoverflow.com | Helped with extracting JSON data from API
